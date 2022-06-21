@@ -1,0 +1,34 @@
+.network {
+    background: linear-gradient(360deg,
+            #f8f8f8 -45.04%,
+            rgba(248, 248, 248, 0) 88.56%);
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &-title {
+        max-width: 383.41px;
+        font-weight: 500;
+        font-size: 35px;
+        color: $heading-color;
+        line-height: calc(50/35);
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: $text-color;
+        max-width: 555px;
+        line-height: calc(30/16);
+        margin-bottom: 155.81px;
+    }
+    &-global img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.sponsored {
+    display: none;
+    background:  #f6f6f6;
+   
+    &-container{
+        max-width: 1135.64px;
+        height: 208.32px;
+    }
+    &-list {
+        display: flex;
+        flex-direction: row;
+        gap: 0 35px ;
+    }
+    &-item {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
