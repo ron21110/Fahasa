@@ -67,3 +67,20 @@
         }
     }
 }
+@media screen and (max-width: 600px) {
+    .feature {
+        &-container {
+          flex-direction: column;
+          text-align: center;
+        }
+        &-title {
+            width: 100%;
+            
+        }
+        &-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 .intro {
-    display: non;
     padding-bottom: 96px;
+
     &-infor {
         padding: 2.5px;
     }
@@ -43,13 +43,79 @@
         line-height: calc(30/20);
     }
 }
+
 @media screen and (max-width: 768px) {
     .intro {
         &-container {
             padding: 50px 25px;
         }
+
         &-item {
             gap: 0 10px;
+        }
+
+        &-icon {
+            &>img {
+                width: 95%;
+            }
+        }
+
+        &-title {
+            font-size: 20px;
+        }
+
+        &-text {
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .intro {
+        &-container {
+            padding: 50px 0px;
+            border: none;
+        }
+
+        &-icon>img {
+            width: 80%;
+
+        }
+
+        &-infor {
+            padding: 0px;
+        }
+
+        &-title {
+            font-size: 18px;
+        }
+
+        &-text {
+            font-size: 14px;
+        }
+
+        &-item {
+            gap: 0px;
+
+        }
+
+        &-item:nth-child(2) {
+            border: none;
+        }
+    }
+
+}
+@media screen and (max-width: 374.98px) {
+    .intro {
+        &-icon >img {
+            width: 80%;
+        }
+        &-title {
+            font-size: 16px;
+        }
+
+        &-text {
+            font-size: 12px;
         }
     }
 }
