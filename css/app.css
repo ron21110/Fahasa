@@ -1,3 +1,6 @@
+:root{
+  --text-color :#0e368d }
+
 * {
   padding: 0;
   margin: 0;
@@ -32,7 +35,7 @@ a {
 body {
   line-height: 1;
   font-family: "Rubik";
-  color: #4f5665;
+  color: var(--text-color );
   font-weight: 400;
   background: white;
 }
@@ -53,14 +56,14 @@ body {
 .button--primary {
   font-weight: 700;
   font-size: 16px;
-  color: white;
-  background-color: #f53838;
+  color: rgb(253, 252, 252);
+  background-color: #0b0ff1;
 }
 .button--outline {
   background-color: transparent;
-  color: #f53838;
+  color: #0b0ff1;
   font-weight: 500;
-  border: 1px solid #F53855;
+  border: 1px solid #0b0ff1;
   border-radius: 50px;
 }
 .button--rounded {
@@ -88,6 +91,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+}
+.header-container > img {
+  width: 10px;
 }
 .header-auth {
   display: flex;
@@ -103,8 +110,8 @@ body {
 .header-signup {
   font-weight: 500;
   font-size: 16px;
-  color: #f53838;
-  border: 1px solid #f53855;
+  color: #0b0ff1;
+  border: 1px solid #0b0ff1;
   border-radius: 50px;
   padding: 15px 45px;
 }
@@ -159,7 +166,7 @@ body {
   color: #0b132a;
 }
 .hero-image > img {
-  width: 100%;
+  width: 600;
 }
 .hero-desc {
   font-size: 16px;
